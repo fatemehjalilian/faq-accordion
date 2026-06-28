@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'workSans';
+    src: url(./assets/fonts/static/WorkSans-Regular.ttf) 
+    format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'WorkSans';
+    src: url('./assets/fonts/static/WorkSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;        
+}                
+@font-face{
+    font-family: 'WorkSans';
+    src: url('./assets/fonts/static/WorkSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (min-width: 1440px){
+    #pic{
+        width: 100%;
+    }
+    html, body{
+        width: 100%;
+        }
+    main{
+        max-width: 27%;  
+    }
+    .question{
+        width: 90%;
+    }
+    h4:hover{
+        color: rgb(170, 40, 220);
+    }     
+}
+@media (min-width: 425px){
+    #pic{
+        width: 100%;
+    }       
+    html, body{
+        width: 100%;
+    } 
+    .question{
+       width: 85%;
+    }
+}
+
+header{
+    width: 100%;
+    }
+
+body{
+    line-height: 17px;
+    font-family: 'workSans';
+    background-color: hsl(275, 100%, 97%);
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin: 0;
+}
+
+main{
+    transform: translateY(-87px);
+    background-color: white;
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    box-shadow: -1px 2px 10px 1px rgba(128, 128, 128, 0.285);
+}
+
+#topic{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 4px;
+    padding-top: 15px;
+    margin: 0 17px;
+}
+
+h2{
+    font-weight: bold;
+    color: hsl(292, 42%, 14%);
+    font-size: 30px;
+}
+
+.faq-item{
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    padding: 0;
+    margin: 0 23px;
+}
+
+.container{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+}
+
+h4{
+    margin: 0;
+    text-align: left;
+    line-height: 18px;
+    width: 70%;
+    color: hsl(292, 42%, 14%);
+}
+
+.faq-item.active .answer{
+    display: block;
+}
+
+.answer{
+    font-size: 12px;
+    display: none;
+    font-family: 'workSans';
+    color: hsl(292, 16%, 49%);
+}
