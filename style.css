@@ -17,7 +17,11 @@
     font-weight: 700;
     font-style: normal;
 }
-
+@media (min-width: 2560px){
+    main{
+        
+    }
+}
 @media (min-width: 1440px){
     #pic{
         width: 100%;
@@ -35,9 +39,13 @@
         color: rgb(170, 40, 220);
     }     
 }
+@media (min-width: 1024px){
+
+}
 @media (min-width: 425px){
     #pic{
         width: 100%;
+        object-fit: cover;
     }       
     html, body{
         width: 100%;
@@ -49,7 +57,13 @@
 
 header{
     width: 100%;
-    }
+}
+
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 body{
     line-height: 17px;
