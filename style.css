@@ -19,7 +19,7 @@
 }
 @media (min-width: 2560px){
     main{
-        
+        width: 80%;
     }
 }
 @media (min-width: 1440px){
@@ -42,6 +42,9 @@
 @media (min-width: 1024px){
 
 }
+@media (min-width: 768px){
+    
+}
 @media (min-width: 425px){
     #pic{
         width: 100%;
@@ -53,6 +56,10 @@
     .question{
        width: 85%;
     }
+}
+
+*{
+    box-sizing: border-box;
 }
 
 header{
