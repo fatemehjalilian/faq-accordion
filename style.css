@@ -66,7 +66,12 @@ header{
     width: 100%;
 }
 
-header img{
+picture{
+    display: block;
+    width: 100%;
+}
+
+picture img{
     display: block;
     width: 100%;
     height: auto;
